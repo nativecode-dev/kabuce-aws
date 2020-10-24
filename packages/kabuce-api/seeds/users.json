@@ -1,0 +1,14 @@
+[
+  {
+    "domain": "nativecode.com",
+    "email": "mike.pham@nativecode.com",
+    "configurations": [
+      {
+        "configuration": {
+          "enabled": false
+        },
+        "integration": "aws"
+      }
+    ]
+  }
+]

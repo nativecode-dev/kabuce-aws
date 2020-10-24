@@ -1,0 +1,46 @@
+[
+  {
+    "integration": "aws",
+    "schema": {
+      "$schema": "http://json-schema.org/draft-07/schema",
+      "$id": "http://kabuce.com/kabuce.json",
+      "type": "object",
+      "title": "AWS Configuration Schema",
+      "description": "AWS Configuration Schema",
+      "default": {
+        "enabled": false
+      },
+      "required": [
+        "enabled"
+      ],
+      "properties": {
+        "enabled": {
+          "$id": "#/properties/enabled",
+          "type": "boolean",
+          "default": false
+        },
+        "access_key": {
+          "$id": "#/properties/access_key",
+          "type": "string",
+          "default": null
+        },
+        "secret_key": {
+          "$id": "#/properties/secret_key",
+          "type": "string",
+          "default": null
+        },
+        "old_access_key": {
+          "$id": "#/properties/access_key",
+          "type": "string",
+          "default": null
+        },
+        "old_secret_key": {
+          "$id": "#/properties/secret_key",
+          "type": "string",
+          "default": null
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+]
